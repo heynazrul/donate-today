@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Inter', sans-serif;
+}
+
+p,
+li {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Utility Class */
+.primary-clr {
+  color: #ff5959;
+}
+
+.btn-primary {
+  background-color: #ff5959;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 16px 20px;
+  font-size: 20px;
+}
+
+.banner-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/donation7.jpg),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-items {
+  text-align: center;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Donate Section */
+.donate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 130px;
+}
+.section-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: #121212;
+}
+
+.section-description {
+  color: #707070;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.donate-amount-container {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.donate-amount-container .donate-amount-list {
+  display: flex;
+  gap: 22px;
+  list-style: none;
+  
+}
+
+.donate-amount-list .amount {
+  padding: 50px;
+  border: 2px solid #fff;
+  background-color: #fafafa;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #707070;
+}
+
+.donate-amount-list .amount:hover {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ff5959;
+}
+
+.donate input {
+  font-size: 18px;
+  border: none;
+  color: #b3b3b3;
+  outline: none;
+  width: 100%;
+  text-align: center;
+}
+
+.donate hr {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 765px;
+  color: #b3b3b3;
+
+}
