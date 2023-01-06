@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lobster&family=Manrope&family=Poppins:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@ h3 {
 }
 
 p,
-li {
+li, button {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -18,14 +19,43 @@ li {
   color: #ff5959;
 }
 
+.card-orange {
+  background-color: #fff4d6;
+}
+
+.card-blue {
+  background-color: #edf5f6;
+}
+
+.card-pink {
+  background-color: #ffeeee;
+}
+
 .btn-primary {
   background-color: #ff5959;
   color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 16px 20px;
+  padding: 16px 24px;
   font-size: 20px;
 }
+
+.section-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: #121212;
+  text-align: center;
+}
+
+.section-description {
+  width: 50%;
+  color: #707070;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px auto 50px;
+}
+
+/* Banner Style */
 
 .banner-container {
   width: 100%;
@@ -64,28 +94,14 @@ li {
   align-items: center;
   margin: 130px;
 }
-.section-title {
-  font-size: 45px;
-  font-weight: 700;
-  color: #121212;
-}
-
-.section-description {
-  color: #707070;
-  font-size: 18px;
-  text-align: center;
-  margin-top: 20px;
-}
 
 .donate-amount-container {
-  margin-top: 50px;
   margin-bottom: 60px;
 }
 .donate-amount-container .donate-amount-list {
   display: flex;
   gap: 22px;
   list-style: none;
-  
 }
 
 .donate-amount-list .amount {
@@ -120,5 +136,140 @@ li {
   margin-bottom: 30px;
   width: 765px;
   color: #b3b3b3;
+}
 
+/* Donate Plan section */
+.plan-card {
+  display: flex;
+
+  gap: 24px;
+  width: 80%;
+
+  margin: 0 auto;
+}
+
+.plan-card-content {
+padding: 60px 30px;
+border-radius: 5px;
+}
+
+.plan-card-content .plan-card-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #121212;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.plan-card-content .plan-card-description {
+  font-size: 18px;
+  color: #707070;
+}
+
+/* Call-out Section */
+
+.callout {
+  display: flex;
+  margin: 150px 0;
+  justify-content: space-between;
+}
+
+.callout .callout-info-container-left {
+width: 50%;
+text-align: left;
+margin: 80px 0 80px 250px;
+}
+
+.callout .callout-info-container-right {
+  width: 50%;
+  text-align: left;
+  margin: 80px 100px 80px 100px;
+  }
+
+.callout .section-title {
+  width: 70%;
+  text-align: left;
+}
+
+.callout .section-description {
+  width: 70%;
+  text-align: left;
+  margin: 20px 0 30px;
+}
+
+
+.callout .callout-img-container-right {
+  width: 40%;
+  background-image: url(images/donation2.jpg);
+  margin-right: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+.callout .callout-img-container-left {
+  width: 40%;
+  background-image: url(images/donation8.jpg);
+  margin-left: 250px;
+  background-size: fill;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+/* Contact */
+.contact-card {
+  
+  margin: 50px auto;
+  width: 60%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-card-content {
+  width: 60%;
+  display: flex;
+}
+.contact-card-content input {
+ width: 60%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background-color:#D9D9D9;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.contact-card-content button {
+  width: 30%;
+  background-color: #ff5959;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+
+/* Footer style */
+
+footer {
+  background: #0B0D17;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h3 {
+  font-family: 'Lobster', cursive;
+  color: #ff5959;
+  font-size: 36px;
+}
+
+.footer p {
+  margin-top: 10px;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  color: #edf5f6;
 }
